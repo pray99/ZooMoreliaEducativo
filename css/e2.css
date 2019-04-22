@@ -1,0 +1,85 @@
+.p1{
+	height: 190px;
+	width: 290px;
+	display: block;
+}
+.p2{
+	height: 190px;
+	width: 290px;
+	display: block;
+}
+.p3{
+	height: 190px;
+	width: 290px;
+	display: block;
+}
+
+.fb{
+	width: 74px;
+	height: 74px;
+}
+
+.tw{
+	width: 100px;
+	height: 100px;
+}
+
+.in{
+	width: 100px;
+	height: 100px;
+}
+
+.yt{
+	width: 80px;
+	height: 80px;
+}
+
+.pag{
+	text-decoration: none;
+}
+
+#promo{
+	background: #19980B;
+	color: white;
+	padding: 20px;
+	width: 50%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	font-size: 20px;
+	border: none;
+	text-shadow: 2px 2px 4px black;
+	text-decoration: none;
+}
+
+h1{
+	color: black;
+	text-shadow: 2px 2px 2px #00FF49;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 760px){
+
+table{
+	width: 100%;
+}
+
+thead {
+           display: none;
+       }
+
+       tbody td {
+           display: block;
+           text-align:center;
+       }
+       tbody td:before {
+           content: attr(data-th);
+           display: block;
+           text-align:center;
+
+}
+

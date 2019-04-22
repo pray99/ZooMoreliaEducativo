@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Zoológico de Morelia</title>
+	<link rel="stylesheet" href="css/estilomenu.css">
+	<link rel="stylesheet" type="text/css" href="css/estilocalc.css">
+	<body>
+		<header class="header">
+			<div class="container logo-nav-container">
+				<a href="index.html"><img src="imagenes/zoo.png" class="logo"></a>
+				<span class="menu-icon"> <img class="icono" src="imagenes/bot.png"></span>
+				<nav class="navigation">
+
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="escuelas.html">Grupos escolares</a></li>
+					<li><a href="cursos.html">Cursos de verano</a></li>
+					<li><a href="calcular.html">Costos y descuentos</a></li>
+					<li><a href="calendario.html">Agenda escolar</a></li>
+					<li><a href="contacto.html">Contáctanos</a></li>
+				</ul>
+			</nav>
+			</div>
+		</header>
+		<main class="main">
+			<div class="container">
+				
+				<div id=caja>
+				<div id="uno">
+				<p><h2><u>Información de costos área educativa</u></h2>
+				<p><b><u>Entrada General</u></b><br>
+				niños: $20 pesos-----------Adultos: $30 pesos<br>
+				Si tu visita es de lunes a miércoles te aplicamos el 50% de descuento<br>
+				<b>en la entrada general</b><br>
+				niños: $10 pesos-----------Adultos: $15 pesos<br>
+				Si tu visita es jueves o viernes te aplicamos un 35% de descuento<br>
+				<b>en la entrada general</b><br>
+				Ninos: $13 pesos-----------Adultos: $19.5 pesos<br>
+				<b>Costo por atractivo: $15 pesos por persona y atractivo</b><br>
+				<p><b><u>Paquete Silver</u></b><br>
+				Niños: $55 pesos-----------Adultos: $65 pesos<br>
+				Este paquete incluye la entrada al zoológico y 3 atractivos<br>
+				(En este paquete no hay descuento, solo en <b><u>Entrada general</u></b>)<br>
+				1.Herpetario  2.Acuario  3.Tren terrestre<br>
+				<p><b><u>Paquete Premier</u></b><br>
+				Niños: $80 pesos-----------Adultos: $95 pesos<br>
+				Este paquete incluye la entrada al zoológico y 5 atractivos<br>
+				(En este paquete no hay descuento, solo en <b><u>Entrada general</u></b>)<br>
+				1.Herpetario  2.Acuario  3.Tren terrestre  4.Cabaña encantada  5.Tren de vía<br>
+				<p><b><u>Visitas Guiadas</u></b><br>
+				Disfruta de recorridos sorprendentes con la compañía de un guía por las diferentes<br>
+				áreas del zoológico, conociendo la diversidad de especies que tiene el mundo animal<br>
+				de acuerdo a una gran variedad de temas que se adaptan según el nivel escolar<br> (preescolar,
+				primaria, secundaria, bachillerato y universidad) <br>duración de visita guiada 45 minutos aprox.(<b>importante:</b> Máximo 35 personas por <br>guía y reservación con 15 días de anticipación)<br> <b>Costo: $100 pesos</b>
+				</p></p></div>
+
+			<div id="dos">
+			<form action="resultado.php" method="post">
+			<h1>Calcular costos</h1>
+			<br>
+			Cantidad de niños:<br/>
+			<input type="text" name="ninos"><br>
+			Cantidad de adultos:<br/>
+			<input type="text" name="adultos">
+
+			<br>Tipo de etrada:<br>
+			<select name="entrada">
+				<option value="1">Entrada General</option>
+				<option value="2">Paquete Silver</option>
+				<option value="3">Paquete Premier</option>
+			</select>
+			<br>Día de su visita:<br>
+			<select name="dia" id="dia">
+				<option value="1">Lunes</option>
+				<option value="2">Martes</option>
+				<option value="3">Miércoles</option>
+				<option value="4">Jueves</option>
+				<option value="5">Viernes</option>
+			</select><br/><br>
+			<input type="submit" id="calc" value="Calcular">
+		</form>
+				</div> 
+			</div>
+				
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<p>Calz. Juárez, S/N Col. Félix Ireta,<br>
+				   58070, Morelia, Michoacán.<br>
+				   01 (443) 299 3610 y 299 3616<br>
+				   zoomoreliaoficial@gmail.com<br>
+				   www.zoomorelia.michoacan.gob.mx
+				</p>
+			</div>
+		</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/menu.js"></script>
+
+	</body>
+</head>
+</html>

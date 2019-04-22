@@ -1,0 +1,48 @@
+body {
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+	text-align: center;
+	font-size: 1.2rem;
+	color: white;
+	padding-top: 30px;
+}
+
+
+button{
+	background: #138104;
+	color: #fff;
+	width: 8%;
+	margin-bottom: 10px;
+	padding: 5px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	font-size: 20px;
+	border: none;
+	text-shadow: 2px 2px 4px black;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+@media (max-width: 480px){
+	form{
+		width: 100%;
+	}
+
+	@media only screen and (max-width: 760px){
+
+			button{
+	background: #138104;
+	color: #fff;
+	width: 25%;
+	margin-bottom: 10px;
+	padding: 5px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	font-size: 20px;
+	border: none;
+	text-shadow: 2px 2px 4px black;
+		}
+}

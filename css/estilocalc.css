@@ -1,0 +1,96 @@
+
+
+form{
+	width: 450px;
+	margin: auto;
+	background-image: url(../imagenes/a2.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 20px;
+	font-family: sans-serif;
+	color: #fff;
+	text-align: center;
+	margin-right: 20px;
+	text-shadow: 2px 2px 4px black;
+}
+
+
+#caja {
+	width: 1150px;
+	height: 880px;
+}
+#uno {
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+	line-height: 25px;
+}
+#dos {
+	float: right;
+	line-height: 25px;
+}
+
+
+h1{
+	color: #40FF2B;
+	text-shadow: 2px 2px 4px black;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+
+input{
+	width: 20%;
+	margin-bottom: 10px;
+	padding: 7px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	font-size: 17px;
+	border: none;
+}
+
+select{
+	width: 40%;
+	margin-bottom: 10px;
+	padding: 7px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	font-size: 17px;
+	border: none;
+}
+
+#dia{
+	width: 27%;
+}
+
+#calc{
+	background: #19980B;
+	color: white;
+	padding: 20px;
+	width: 50%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	font-size: 20px;
+	border: none;
+	text-shadow: 2px 2px 4px black;
+}
+
+#calc:hover {
+	cursor: pointer;
+}
+
+ select:hover {
+	cursor: pointer;
+}
+
+@media (max-width: 480px){
+	form{
+		width: 100%;
+	}
+
